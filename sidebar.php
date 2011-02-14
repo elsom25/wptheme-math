@@ -5,14 +5,10 @@
 	<?php if ( !dynamic_sidebar() ) : ?>
 
 	<ul>
-		<li><h3>Welcome!</h3></li>
-		<li><p>Welcome to the Math Orientation 2011 blog. Here the FOC will blog about their exciting adventures planning the most awesome week ever!</p>
-<p style='background-color:#fff;padding:0;width:280px'><fb:like-box href="http://www.facebook.com/MathOrientation2011" width="280" show_faces="true" stream="false" header="true" footer="false"></fb:like-box></p>
-</li>
-		
 		<li><h3>Categories</h3></li>
 		<ul><?php wp_list_categories('title_li='); ?></ul>
-		<li><h3>Twitter</h3></li>
+		<li><h3>Social Media</h3></li>
+<li><p style='background-color:#fff;padding:0;width:280px'><fb:like-box href="http://www.facebook.com/MathOrientation2011" width="280" show_faces="true" stream="false" header="true" footer="false"></fb:like-box></p></li>
 		<li class='twitter'>
 		<script type="text/javascript">
 			new TWTR.Widget({
