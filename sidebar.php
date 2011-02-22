@@ -6,7 +6,7 @@
 
 	<ul>
 		<li><h3>Categories</h3></li>
-		<ul><?php wp_list_categories('title_li='); ?></ul>
+		<ul><?php wp_list_categories('title_li=&exclude=20'); ?></ul>
 		<li><h3>Social Media</h3></li>
 <li><p style='background-color:#fff;padding:0;width:280px'><fb:like-box href="http://www.facebook.com/MathOrientation2011" width="280" show_faces="true" stream="false" header="true" footer="false"></fb:like-box></p></li>
 		<li class='twitter'>
