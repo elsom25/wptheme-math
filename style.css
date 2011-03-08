@@ -138,6 +138,11 @@ div#content {
 		line-height:21px;
 		color:#555;
 	}
+	#content .entry abbr,
+	#content .entry acronym {
+		cursor:help;
+		border-bottom:1px solid #555;
+	}
 	div#content div.entry p a {
 		color:inherit;
 		border-bottom:1px dashed #555;
