@@ -10,6 +10,7 @@
 		<?php comments_template(); ?>
 	</div>
 <?php endwhile; ?>
+	<p class='postnav'><?php next_post_link('%link','&larr; %title'); ?> <?php previous_post_link('%link','%title &rarr;'); ?></p>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
