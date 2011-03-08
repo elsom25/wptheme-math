@@ -200,6 +200,16 @@ div#content {
 		padding:8px 20px;
 	}
 
+#content p.postnav {
+	text-align:center;
+}
+#content p.postnav>a {
+	color:#888;
+	text-decoration:none;
+	display:inline-block;
+	margin:0 10px;
+}
+
 div#sidebar {
 	background-color:#FFDCEC;
 	border-bottom:3px solid #FFD1E6;
@@ -254,7 +264,6 @@ div#sidebar {
 	}
 	
 	div#sidebar ul.recentcomments li {
-		margin:0 0 5px 0;
 		font-size:12px;
 		color:#666;
 		padding:0 0 7px 0;

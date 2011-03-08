@@ -15,5 +15,6 @@
 			<?php the_content(); ?>
 		</div>
 	<?php endwhile; ?>
+	<p class='postnav'><?php next_posts_link('&larr; Older'); ?> <?php previous_posts_link('Newer &rarr;'); ?></p>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
