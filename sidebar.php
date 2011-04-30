@@ -43,7 +43,7 @@
 		</li>
 		
 		<li><h3>Recent Comments</h3></li>
-		<?php $comments = get_comments('number=5&order_by=comment_date_gmt'); ?>
+		<?php $comments = get_comments('number=5&order_by=comment_date_gmt&status=approve'); ?>
 		<ul class='recentcomments'>
 		<?php
 		if ($comments) {
